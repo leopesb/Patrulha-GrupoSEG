@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PATRULHA</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+</script>
+<script>
+
+$(document).ready(function(){
+  $("#1sul").click(function(){
+    $("#acesso").fadeToggle(500);
+  });
+});
+
+</script>
+<style>
+
+table, tr, td, th{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 50%;
+  text-align: center;
+  align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #00AF50;
+}
+
+.seta1{
+  background-image: linear-gradient(to right, #00AF50 30%, white 40%, white 60%, #00AF50 70%);
+}
+
+.seta2{
+  background-image: linear-gradient(to right, white 30%, #00AF50 40%, #00AF50 60%, white 70%);
+}
+
+#acesso {
+  display: none;
+}
+
+</style>
+
+<body>
+<h1 align = 'center'>PONTO BASE DA PATRULHA SUL</h1>
+<table align = 'center'>
+  <tr>
+    <th>NOME</th>
+    <th>POSTO</th>
+    <th>ACESSO</th>
+  </tr>
+  <tr>
+    <td>1ª SUL</td>
+    <td>ERNESTO DE PAULA</td>
+    <td class = "seta1" id = "1sul">➡️</td>
+  </tr>
+  <tr>
+    <td>2ª SUL</td>
+    <td>ANTÔNIO FALCÃO</td>
+    <td class = 'seta2' id = '2sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>RONDA SUL</td>
+    <td>PIEDADE</td>
+    <td class = 'seta1' id = 'rondasul'>➡️</td>
+  </tr>
+  <tr>
+    <td>4ª SUL</td>
+    <td>PINA</td>
+    <td class = 'seta2' id = '4sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>5ª SUL</td>
+    <td>IMBIRIBEIRA</td>
+    <td class = 'seta1' id = '5sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>6ª SUL</td>
+    <td>AREIAS</td>
+    <td class = 'seta2' id = '6sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>7ª SUL</td>
+    <td>SETÚBAL</td>
+    <td class = 'seta1' id = '7sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>8ª SUL</td>
+    <td>CABO</td>
+    <td class = 'seta2' id = '8sul'>➡️</td>
+  </tr>
+  <tr>
+    <td>1ª SUL JAB</td>
+    <td>ENGENHO VELHO</td>
+    <td class = 'seta1' id = '1suljab'>➡️</td>
+  </tr>
+  <tr>
+    <td>2ª SUL JAB</td>
+    <td>PIEDADE</td>
+    <td class = 'seta2' id = '2suljab'>➡️</td>
+  </tr>
+  <tr>
+    <td>3ª SUL JAB</td>
+    <td>ENGENHO VELHO</td>
+    <td class = 'seta1' id = '3suljab'>➡️</td>
+  </tr>
+  <tr>
+    <td>4ª SUL JAB</td>
+    <td>PIEDADE</td>
+    <td class = 'seta2' id = '4suljab'>➡️</td>
+  </tr>
+</table>
+
+<div id="acesso">
+<br><br><br><br>
+<h1 align = "center">1ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+</body>
+</html>
