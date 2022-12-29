@@ -21,10 +21,8 @@ table, tr, td, th{
   border: 3px solid black;
   width: 50%;
   text-align: center;
-  align: center;
   padding: 8px;
 }
-
 tr:nth-child(even) {
   background-color: #00AF50;
 }
@@ -41,6 +39,11 @@ tr:nth-child(even) {
   display: none;
 }
 
+button{
+  border: none;
+  background: none;
+}
+
 </style>
 
 <body>
@@ -54,7 +57,7 @@ tr:nth-child(even) {
   <tr>
     <td>1ª SUL</td>
     <td>ERNESTO DE PAULA</td>
-    <td class = "seta1" id = "1sul">➡️</td>
+    <td class = "seta1"><button id = "1sul">➡️</button></td>
   </tr>
   <tr>
     <td>2ª SUL</td>
@@ -114,18 +117,17 @@ tr:nth-child(even) {
 </table>
 
 <div id="acesso">
-<br><br><br><br>
 <h1 align = "center">1ª SUL</h1>
    <table align = "center">
       <tr>
          <th>Qxx</th>
          <th>PLACA</th>
-         <th>QRR</th>
+         <th>HORÁRIO DO QRR</th>
       </tr>
       <tr>
          <td> Alex </td>
          <td> 20 </td>
-         <th>QRR</th>
+         <th><input type = "time"></th>
       </tr>
       <tr>
          <td> Tim </td>
