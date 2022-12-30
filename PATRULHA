@@ -9,41 +9,93 @@
 $(document).ready(function(){
   $("#1sul").click(function(){
     $("#acesso-1").fadeToggle(500);
+    $("#acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
 
 $(document).ready(function(){
   $("#2sul").click(function(){
     $("#acesso-2").fadeToggle(500);
+    $("#acesso-1, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
 
 $(document).ready(function(){
   $("#rondasul").click(function(){
     $("#acesso-3").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
 
 $(document).ready(function(){
   $("#4sul").click(function(){
     $("#acesso-4").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
 
 $(document).ready(function(){
   $("#5sul").click(function(){
     $("#acesso-5").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
 
 $(document).ready(function(){
   $("#6sul").click(function(){
     $("#acesso-6").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#7sul").click(function(){
+    $("#acesso-7").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#8sul").click(function(){
+    $("#acesso-8").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-43, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#1suljab").click(function(){
+    $("#acesso-9").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-10, #acesso-11, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#2suljab").click(function(){
+    $("#acesso-10").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-11, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#3suljab").click(function(){
+    $("#acesso-11").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-12").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#4suljab").click(function(){
+    $("#acesso-12").fadeToggle(500);
+    $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11").hide();
   });
 });
 
 </script>
 <style>
+
+body{
+  background-image: linear-gradient(to bottom, green 2%, white 40%, white 60%, green 98%);
+}
 
 table, td, th, tr{
   font-family: arial, sans-serif;
@@ -64,13 +116,13 @@ tr:nth-child(even) {
   background-color: #00AF50;
 }
 
-.seta1{
-  background-image: linear-gradient(to right, #00AF50 30%, white 40%, white 60%, #00AF50 70%);
+/*.seta1{
+  background-image: linear-gradient(to right, #00AF50 20%, white 50%, #00AF50 80%);
 }
 
 .seta2{
-  background-image: linear-gradient(to right, white 30%, #00AF50 40%, #00AF50 60%, white 70%);
-}
+  background-image: linear-gradient(to right, white 10%, #00AF50 50%, white 90%);
+}*/
 
 .nome{
   width: 25%;
@@ -84,8 +136,9 @@ tr:nth-child(even) {
   width: 15%;
 }
 
-#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6 {
+#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12 {
   display: none;
+  top: 60%;
 }
 
 button{
@@ -104,7 +157,6 @@ ul{
 </style>
 
 <body>
-
 
 <ul align = 'center' class = "divisao">
 <li>
@@ -148,32 +200,32 @@ ul{
   <tr>
     <td>7ª SUL</td>
     <td>SETÚBAL</td>
-    <td class = 'seta1' id = '7sul'>➡️</td>
+    <td class = 'seta1'><button id = '7sul'>➡️</button></td>
   </tr>
   <tr>
     <td>8ª SUL</td>
     <td>CABO</td>
-    <td class = 'seta2' id = '8sul'>➡️</td>
+    <td class = 'seta2'><button id = '8sul'>➡️</button></td>
   </tr>
   <tr>
     <td>1ª SUL JAB</td>
     <td>ENGENHO VELHO</td>
-    <td class = 'seta1' id = '1suljab'>➡️</td>
+    <td class = 'seta1'><button id = '1suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>2ª SUL JAB</td>
     <td>PIEDADE</td>
-    <td class = 'seta2' id = '2suljab'>➡️</td>
+    <td class = 'seta2'><button id = '2suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>3ª SUL JAB</td>
     <td>ENGENHO VELHO</td>
-    <td class = 'seta1' id = '3suljab'>➡️</td>
+    <td class = 'seta1'><button id = '3suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>4ª SUL JAB</td>
     <td>PIEDADE</td>
-    <td class = 'seta2' id = '4suljab'>➡️</td>
+    <td class = 'seta2'><button id = '4suljab'>➡️</button></td>
   </tr>
 </table>
 </li>
@@ -184,24 +236,46 @@ ul{
 <h1 align = "center">1ª SUL</h1>
    <table align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
       </tr>
       <tr>
          <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
+         <td>QRX-4332</td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
       </tr>
       <tr>
          <td> Tim </td>
          <td> 18 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+      </tr>
+      <tr>
+         <td>Seu Zé</td>
+         <td> 43 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+      </tr>
+      <tr>
+         <td> Irineu </td>
+         <td> 22 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
       </tr>
    </table>
 </div>
@@ -289,6 +363,188 @@ ul{
 
 <div id="acesso-5">
 <h1 align = "center">5ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-6">
+<h1 align = "center">6ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-7">
+<h1 align = "center">7ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-8">
+<h1 align = "center">8ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-9">
+<h1 align = "center">1ª SUL JAB</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-10">
+<h1 align = "center">2ª SUL JAB</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-11">
+<h1 align = "center">3ª SUL JAB</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-12">
+<h1 align = "center">4ª SUL JAB</h1>
    <table align = "center">
       <tr>
          <th>Qxx</th>
