@@ -8,21 +8,58 @@
 
 $(document).ready(function(){
   $("#1sul").click(function(){
-    $("#acesso").fadeToggle(500);
+    $("#acesso-1").fadeToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#2sul").click(function(){
+    $("#acesso-2").fadeToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#rondasul").click(function(){
+    $("#acesso-3").fadeToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#4sul").click(function(){
+    $("#acesso-4").fadeToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#5sul").click(function(){
+    $("#acesso-5").fadeToggle(500);
+  });
+});
+
+$(document).ready(function(){
+  $("#6sul").click(function(){
+    $("#acesso-6").fadeToggle(500);
   });
 });
 
 </script>
 <style>
 
-table, tr, td, th{
+table, td, th, tr{
   font-family: arial, sans-serif;
   border-collapse: collapse;
   border: 3px solid black;
-  width: 50%;
+  width: 75%;
   text-align: center;
+  table-layout: fixed;
   padding: 8px;
 }
+
+td, th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 tr:nth-child(even) {
   background-color: #00AF50;
 }
@@ -35,7 +72,19 @@ tr:nth-child(even) {
   background-image: linear-gradient(to right, white 30%, #00AF50 40%, #00AF50 60%, white 70%);
 }
 
-#acesso {
+.nome{
+  width: 25%;
+}
+
+.posto{
+  width: 50%;
+}
+
+.acesso{
+  width: 15%;
+}
+
+#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6 {
   display: none;
 }
 
@@ -44,15 +93,27 @@ button{
   background: none;
 }
 
+.divisao {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul{
+  list-style: none;
+}
 </style>
 
 <body>
-<h1 align = 'center'>PONTO BASE DA PATRULHA SUL</h1>
+
+
+<ul align = 'center' class = "divisao">
+<li>
+<h1>PONTO BASE DA PATRULHA SUL</h1>
 <table align = 'center'>
   <tr>
-    <th>NOME</th>
-    <th>POSTO</th>
-    <th>ACESSO</th>
+    <th class = "nome">NOME</th>
+    <th class = "posto">POSTO</th>
+    <th class = "acesso">ACESSO</th>
   </tr>
   <tr>
     <td>1ª SUL</td>
@@ -62,27 +123,27 @@ button{
   <tr>
     <td>2ª SUL</td>
     <td>ANTÔNIO FALCÃO</td>
-    <td class = 'seta2' id = '2sul'>➡️</td>
+    <td class = 'seta2'><button id = '2sul'>➡️</button></td>
   </tr>
   <tr>
     <td>RONDA SUL</td>
     <td>PIEDADE</td>
-    <td class = 'seta1' id = 'rondasul'>➡️</td>
+    <td class = 'seta1'><button id = 'rondasul'>➡️</button></td>
   </tr>
   <tr>
     <td>4ª SUL</td>
     <td>PINA</td>
-    <td class = 'seta2' id = '4sul'>➡️</td>
+    <td class = 'seta2'><button id = '4sul'>➡️</button></td>
   </tr>
   <tr>
     <td>5ª SUL</td>
     <td>IMBIRIBEIRA</td>
-    <td class = 'seta1' id = '5sul'>➡️</td>
+    <td class = 'seta1'><button id = '5sul'>➡️</button></td>
   </tr>
   <tr>
     <td>6ª SUL</td>
     <td>AREIAS</td>
-    <td class = 'seta2' id = '6sul'>➡️</td>
+    <td class = 'seta2'><button id = '6sul'>➡️</button></td>
   </tr>
   <tr>
     <td>7ª SUL</td>
@@ -115,8 +176,11 @@ button{
     <td class = 'seta2' id = '4suljab'>➡️</td>
   </tr>
 </table>
+</li>
 
-<div id="acesso">
+<ul>
+<li>
+<div id="acesso-1">
 <h1 align = "center">1ª SUL</h1>
    <table align = "center">
       <tr>
@@ -141,5 +205,139 @@ button{
       </tr>
    </table>
 </div>
+</li>
+
+<li>
+<div id="acesso-2">
+<h1 align = "center">2ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+</li>
+
+<div id="acesso-3">
+<h1 align = "center">RONDA SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-4">
+<h1 align = "center">4ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-5">
+<h1 align = "center">5ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+
+<div id="acesso-6">
+<h1 align = "center">6ª SUL</h1>
+   <table align = "center">
+      <tr>
+         <th>Qxx</th>
+         <th>PLACA</th>
+         <th>HORÁRIO DO QRR</th>
+      </tr>
+      <tr>
+         <td> Alex </td>
+         <td> 20 </td>
+         <th><input type = "time"></th>
+      </tr>
+      <tr>
+         <td> Tim </td>
+         <td> 18 </td>
+         <th>QRR</th>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <th>QRR</th>
+      </tr>
+   </table>
+</div>
+</ul>
 </body>
 </html>
