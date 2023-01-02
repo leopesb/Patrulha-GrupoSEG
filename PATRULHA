@@ -7,6 +7,12 @@
 <script>
 
 $(document).ready(function(){
+  $("#sim").click(function(){
+    $("#sim").text("❌");
+  });
+});
+
+$(document).ready(function(){
   $("#1sul").click(function(){
     $("#acesso-1").fadeToggle(500);
     $("#acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
@@ -94,7 +100,7 @@ $(document).ready(function(){
 <style>
 
 body{
-  background-image: linear-gradient(to bottom, green 2%, white 40%, white 60%, green 98%);
+  background-image: linear-gradient(to bottom, rgb(50,255,50) 2%, white 40%, white 60%, rgb(50,255,50) 99.9%);
 }
 
 table, td, th, tr{
@@ -137,8 +143,10 @@ tr:nth-child(even) {
 }
 
 #acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12 {
+  width: 150%;
   display: none;
   top: 60%;
+  transform: translateX(-150px);
 }
 
 button{
@@ -147,6 +155,7 @@ button{
 }
 
 .divisao {
+  transform: translateX(-70px);
   display: flex;
   justify-content: flex-start;
 }
@@ -241,6 +250,7 @@ ul{
          <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
          <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Alex </td>
@@ -248,6 +258,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
+         <td class = "yes"><button id = "sim">✔️</button></td>
       </tr>
       <tr>
          <td> Tim </td>
@@ -255,6 +266,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
+         <td><button id = "disponible">✔️</button></td>
       </tr>
       <tr>
          <td> Mark </td>
@@ -262,6 +274,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
+         <td><button id = "disponible">✔️</button></td>
       </tr>
       <tr>
          <td>Seu Zé</td>
@@ -269,6 +282,8 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
+         <td><button id = "disponible">✔️</button></td>
+         <td><button id = "disponible">✔️</button></td>
       </tr>
       <tr>
          <td> Irineu </td>
@@ -276,6 +291,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
+         <td><button id = "disponible">✔️</button></td>
       </tr>
    </table>
 </div>
@@ -569,31 +585,6 @@ ul{
    </table>
 </div>
 
-<div id="acesso-6">
-<h1 align = "center">6ª SUL</h1>
-   <table align = "center">
-      <tr>
-         <th>Qxx</th>
-         <th>PLACA</th>
-         <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
-      </tr>
-      <tr>
-         <td> Mark </td>
-         <td> 23 </td>
-         <th>QRR</th>
-      </tr>
-   </table>
-</div>
 </ul>
 </body>
 </html>
