@@ -7,14 +7,167 @@
 <script>
 
 $(document).ready(function(){
-  $("#sim").click(function(){
-    $("#sim").text("❌");
+  $(".row-1").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-1 table tbody").append(markup);
+  });
+  $(".remove-1").click(function(){
+    $("#acesso-1 table tbody tr:last-child").remove();
+  });
+ 
+  $(".row-2").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-2 table tbody").append(markup);
+  });
+  $(".remove-2").click(function(){
+    $("#acesso-2 table tbody tr:last-child").remove();
+  });
+
+  $(".row-3").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-3 table tbody").append(markup);
+  });
+  $(".remove-3").click(function(){
+    $("#acesso-3 table tbody tr:last-child").remove();
+  });
+
+  $(".row-4").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-4 table tbody").append(markup);
+  });
+  $(".remove-4").click(function(){
+    $("#acesso-4 table tbody tr:last-child").remove();
+  });
+
+  $(".row-5").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-5 table tbody").append(markup);
+  });
+  $(".remove-5").click(function(){
+    $("#acesso-5 table tbody tr:last-child").remove();
+  });
+
+  $(".row-6").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-6 table tbody").append(markup);
+  });
+  $(".remove-6").click(function(){
+    $("#acesso-6 table tbody tr:last-child").remove();
+  });
+
+  $(".row-7").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-7 table tbody").append(markup);
+  });
+  $(".remove-7").click(function(){
+    $("#acesso-7 table tbody tr:last-child").remove();
+  });
+
+  $(".row-8").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-8 table tbody").append(markup);
+  });
+  $(".remove-8").click(function(){
+    $("#acesso-8 table tbody tr:last-child").remove();
+  });
+
+  $(".row-9").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-9 table tbody").append(markup);
+  });
+  $(".remove-9").click(function(){
+    $("#acesso-9 table tbody tr:last-child").remove();
+  });
+
+  $(".row-10").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-10 table tbody").append(markup);
+  });
+  $(".remove-10").click(function(){
+    $("#acesso-10 table tbody tr:last-child").remove();
+  });
+
+  $(".row-11").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-11 table tbody").append(markup);
+  });
+  $(".remove-11").click(function(){
+    $("#acesso-11 table tbody tr:last-child").remove();
+  });
+
+  $(".row-12").click(function(){
+    var qra = $("#qra").val();
+    var placa = $("#placa").val();
+    var entrada = $("#entrada").val();
+    var qrr = $("#qrr").val();
+    var saida = $("#saida").val();
+    var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
+    $("#acesso-12 table tbody").append(markup);
+  });
+  $(".remove-12").click(function(){
+    $("#acesso-12 table tbody tr:last-child").remove();
   });
 });
 
 $(document).ready(function(){
   $("#1sul").click(function(){
     $("#acesso-1").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -22,6 +175,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#2sul").click(function(){
     $("#acesso-2").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -29,6 +183,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#rondasul").click(function(){
     $("#acesso-3").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -36,6 +191,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#4sul").click(function(){
     $("#acesso-4").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -43,6 +199,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#5sul").click(function(){
     $("#acesso-5").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -50,6 +207,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#6sul").click(function(){
     $("#acesso-6").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -57,6 +215,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#7sul").click(function(){
     $("#acesso-7").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -64,6 +223,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#8sul").click(function(){
     $("#acesso-8").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-43, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-9, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -71,6 +231,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#1suljab").click(function(){
     $("#acesso-9").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-10, #acesso-11, #acesso-12").hide();
   });
 });
@@ -78,6 +239,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#2suljab").click(function(){
     $("#acesso-10").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-11, #acesso-12").hide();
   });
 });
@@ -85,6 +247,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#3suljab").click(function(){
     $("#acesso-11").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-12").hide();
   });
 });
@@ -92,6 +255,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#4suljab").click(function(){
     $("#acesso-12").fadeToggle(500);
+    $("form").fadeIn(500);
     $("#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11").hide();
   });
 });
@@ -118,44 +282,40 @@ td, th {
   text-overflow: ellipsis;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even){
   background-color: #00AF50;
 }
-
-/*.seta1{
-  background-image: linear-gradient(to right, #00AF50 20%, white 50%, #00AF50 80%);
-}
-
-.seta2{
-  background-image: linear-gradient(to right, white 10%, #00AF50 50%, white 90%);
-}*/
 
 .nome{
   width: 25%;
 }
 
 .posto{
-  width: 50%;
+  width: 40%;
 }
 
 .acesso{
   width: 15%;
 }
 
-#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12 {
+#acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12{
   width: 150%;
   display: none;
-  top: 60%;
   transform: translateX(-150px);
 }
 
+form{
+  display: none;
+}
 button{
   border: none;
   background: none;
 }
 
 .divisao {
-  transform: translateX(-70px);
+  //transform: translateX(-100px);
+  position: relative;
+  left: -100px;
   display: flex;
   justify-content: flex-start;
 }
@@ -163,10 +323,11 @@ button{
 ul{
   list-style: none;
 }
+
 </style>
 
 <body>
-
+<header>
 <ul align = 'center' class = "divisao">
 <li>
 <h1>PONTO BASE DA PATRULHA SUL</h1>
@@ -179,68 +340,69 @@ ul{
   <tr>
     <td>1ª SUL</td>
     <td>ERNESTO DE PAULA</td>
-    <td class = "seta1"><button id = "1sul">➡️</button></td>
+    <td><button id = "1sul">➡️</button></td>
   </tr>
   <tr>
     <td>2ª SUL</td>
     <td>ANTÔNIO FALCÃO</td>
-    <td class = 'seta2'><button id = '2sul'>➡️</button></td>
+    <td><button id = '2sul'>➡️</button></td>
   </tr>
   <tr>
     <td>RONDA SUL</td>
     <td>PIEDADE</td>
-    <td class = 'seta1'><button id = 'rondasul'>➡️</button></td>
+    <td><button id = 'rondasul'>➡️</button></td>
   </tr>
   <tr>
     <td>4ª SUL</td>
     <td>PINA</td>
-    <td class = 'seta2'><button id = '4sul'>➡️</button></td>
+    <td><button id = '4sul'>➡️</button></td>
   </tr>
   <tr>
     <td>5ª SUL</td>
     <td>IMBIRIBEIRA</td>
-    <td class = 'seta1'><button id = '5sul'>➡️</button></td>
+    <td><button id = '5sul'>➡️</button></td>
   </tr>
   <tr>
     <td>6ª SUL</td>
     <td>AREIAS</td>
-    <td class = 'seta2'><button id = '6sul'>➡️</button></td>
+    <td><button id = '6sul'>➡️</button></td>
   </tr>
   <tr>
     <td>7ª SUL</td>
     <td>SETÚBAL</td>
-    <td class = 'seta1'><button id = '7sul'>➡️</button></td>
+    <td><button id = '7sul'>➡️</button></td>
   </tr>
   <tr>
     <td>8ª SUL</td>
     <td>CABO</td>
-    <td class = 'seta2'><button id = '8sul'>➡️</button></td>
+    <td><button id = '8sul'>➡️</button></td>
   </tr>
   <tr>
     <td>1ª SUL JAB</td>
     <td>ENGENHO VELHO</td>
-    <td class = 'seta1'><button id = '1suljab'>➡️</button></td>
+    <td><button id = '1suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>2ª SUL JAB</td>
     <td>PIEDADE</td>
-    <td class = 'seta2'><button id = '2suljab'>➡️</button></td>
+    <td><button id = '2suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>3ª SUL JAB</td>
     <td>ENGENHO VELHO</td>
-    <td class = 'seta1'><button id = '3suljab'>➡️</button></td>
+    <td><button id = '3suljab'>➡️</button></td>
   </tr>
   <tr>
     <td>4ª SUL JAB</td>
     <td>PIEDADE</td>
-    <td class = 'seta2'><button id = '4suljab'>➡️</button></td>
+    <td><button id = '4suljab'>➡️</button></td>
   </tr>
 </table>
 </li>
 
 <ul>
 <li>
+<div id = "acesso">
 <div id="acesso-1">
 <h1 align = "center">1ª SUL</h1>
    <table align = "center">
@@ -258,7 +420,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
-         <td class = "yes"><button id = "sim">✔️</button></td>
+         <td><input type="checkbox" name = "result"></td>
       </tr>
       <tr>
          <td> Tim </td>
@@ -266,7 +428,7 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
-         <td><button id = "disponible">✔️</button></td>
+         <td><input type="checkbox" name = "result"></td>
       </tr>
       <tr>
          <td> Mark </td>
@@ -274,27 +436,20 @@ ul{
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
-         <td><button id = "disponible">✔️</button></td>
-      </tr>
-      <tr>
-         <td>Seu Zé</td>
-         <td> 43 </td>
-         <td><input type = "time"></td>
-         <td><input type = "time"></td>
-         <td><input type = "time"></td>
-         <td><button id = "disponible">✔️</button></td>
-         <td><button id = "disponible">✔️</button></td>
-      </tr>
-      <tr>
-         <td> Irineu </td>
-         <td> 22 </td>
-         <td><input type = "time"></td>
-         <td><input type = "time"></td>
-         <td><input type = "time"></td>
-         <td><button id = "disponible">✔️</button></td>
+         <td><input type="checkbox" name = "result"></td>
       </tr>
    </table>
-</div>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-1" value="Adicionar">
+         <input type="button" class="remove-1" value="Remover">
+      </form>
+
+
 </li>
 
 <li>
@@ -322,6 +477,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-2" value="Adicionar">
+         <input type="button" class="remove-2" value="Remover">
+      </form>
 </div>
 </li>
 
@@ -349,6 +513,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-3" value="Adicionar">
+         <input type="button" class="remove-3" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-4">
@@ -375,6 +548,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-4" value="Adicionar">
+         <input type="button" class="remove-4" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-5">
@@ -401,6 +583,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-5" value="Adicionar">
+         <input type="button" class="remove-5" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-6">
@@ -427,6 +618,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-6" value="Adicionar">
+         <input type="button" class="remove-6" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-7">
@@ -453,6 +653,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-7" value="Adicionar">
+         <input type="button" class="remove-7" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-8">
@@ -479,6 +688,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-8" value="Adicionar">
+         <input type="button" class="remove-8" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-9">
@@ -505,6 +723,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-9" value="Adicionar">
+         <input type="button" class="remove-9" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-10">
@@ -531,6 +758,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-10" value="Adicionar">
+         <input type="button" class="remove-10" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-11">
@@ -557,6 +793,15 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-11" value="Adicionar">
+         <input type="button" class="remove-11" value="Remover">
+      </form>
 </div>
 
 <div id="acesso-12">
@@ -583,8 +828,22 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
+      <br><br><form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-12" value="Adicionar">
+         <input type="button" class="remove-12" value="Remover">
+      </form>
+</div>
 </div>
 
 </ul>
+</header>
+<footer><br><br><br><br>
+<h3 align = "center">Fechar o programa resultará a perca dos dados adicionais!</h3>
+</footer>
 </body>
 </html>
