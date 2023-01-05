@@ -349,7 +349,7 @@ $(document).ready(function(){
 <style>
 
 body{
-  background-image: linear-gradient(to bottom, rgb(50,255,50,0.9) 2%, white 48%, white 52%, rgb(50,255,50,0.9) 98%);
+  background-image: linear-gradient(to bottom, rgb(50,255,50,0.9) 2%, white 48%, white 52%, rgb(50,255,50,0.9) 99.9%);
 }
 
 input[type=text], input[type=time], input[type=button] {
@@ -394,11 +394,19 @@ tr:nth-child(odd){
   background-color: rgb(0,100,200,0.5);
 }
 
+th#nome{
+  width: 25%;
+}
+
+th#acesso{
+  width: 25%;
+}
 #acesso-1, #acesso-2, #acesso-3, #acesso-4, #acesso-5, #acesso-6, #acesso-7, #acesso-8, #acesso-9, #acesso-10, #acesso-11, #acesso-12{
   width: 130%;
   display: none;
   position: relative;
   left: -170px;
+  top: 130px;
 }
 
 #sim-1, #sim-2, #sim-3, #sim-4, #sim-5, #sim-6{
@@ -414,7 +422,15 @@ tr:nth-child(odd){
 
 form{
   display: none;
+  position: relative;
+  top: -50px;
 }
+
+p{
+  position: relative;
+  top: -50px;
+}
+
 button{
   border: none;
   background: none;
@@ -442,9 +458,9 @@ ul{
 <h1 id = "start">PONTO BASE DA PATRULHA SUL</h1>
 <table align = "center" id = "table-1">
   <tr>
-    <th class = "nome">NOME</th>
-    <th class = "posto">POSTO</th>
-    <th class = "acesso">ACESSO</th>
+    <th id = "nome">NOME</th>
+    <th id = "posto">POSTO</th>
+    <th id = "acesso">ACESSO</th>
   </tr>
   <tr>
     <td>1ª SUL</td>
@@ -511,8 +527,17 @@ ul{
 
 <ul>
 <li>
-<div id = "acesso">
 <div id="acesso-1">
+<p>Para adicionar e/ou remover uma patrulha à tabela, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" width = "5" id="qra" placeholder="QRA">
+         <input type="text" id="placa" placeholder="PLACA">
+         <input type="time" id="entrada" placeholder="ENTRADA">
+         <input type="time" id="qrr" placeholder="QRR">
+         <input type="time" id="saida" placeholder="SAÍDA">
+         <input type="button" class="row-1" value="Adicionar">
+         <input type="button" class="remove-1" value="Remover" onclick="alert('Patrulha removida.')">
+      </form>
 <h1 align = "center">1ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
@@ -548,15 +573,6 @@ ul{
          <td><input type="submit" value="✔️" id = "sim-3"><input type="submit" value="❌" id = "nao-3"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-1" value="Adicionar">
-         <input type="button" class="remove-1" value="Remover" onclick="alert('Patrulha removida.')">
-      </form>
 
 </li>
 
@@ -738,7 +754,7 @@ ul{
          <th>QRR</th>
       </tr>
    </table>
-      <br><br><form>
+       <form>
          <input type="text" width = "5" id="qra" placeholder="QRA">
          <input type="text" id="placa" placeholder="PLACA">
          <input type="time" id="entrada" placeholder="ENTRADA">
@@ -959,7 +975,6 @@ ul{
       </form>
 </div>
 <br><br>
-</div>
 
 </ul>
 </header>
