@@ -8,11 +8,11 @@
 
 $(document).ready(function(){
   $(".row-1").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-1 .qra").val();
+    var placa = $("#border-1 .placa").val();
+    var entrada = $("#border-1 .entrada").val();
+    var qrr = $("#border-1 .qrr").val();
+    var saida = $("#border-1 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox'></td></tr>";
     $("#acesso-1 table tbody").append(markup);
   });
@@ -21,11 +21,11 @@ $(document).ready(function(){
   });
  
   $(".row-2").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-2 .qra").val();
+    var placa = $("#border-2 .placa").val();
+    var entrada = $("#border-2 .entrada").val();
+    var qrr = $("#border-2 .qrr").val();
+    var saida = $("#border-2 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox'></td></tr>";
     $("#acesso-2 table tbody").append(markup);
   });
@@ -34,11 +34,11 @@ $(document).ready(function(){
   });
 
   $(".row-3").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-3 .qra").val();
+    var placa = $("#border-3 .placa").val();
+    var entrada = $("#border-3 .entrada").val();
+    var qrr = $("#border-3 .qrr").val();
+    var saida = $("#border-3 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-3 table tbody").append(markup);
   });
@@ -47,11 +47,11 @@ $(document).ready(function(){
   });
 
   $(".row-4").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-4 .qra").val();
+    var placa = $("#border-4 .placa").val();
+    var entrada = $("#border-4 .entrada").val();
+    var qrr = $("#border-4 .qrr").val();
+    var saida = $("#border-4 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-4 table tbody").append(markup);
   });
@@ -60,11 +60,11 @@ $(document).ready(function(){
   });
 
   $(".row-5").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-5 .qra").val();
+    var placa = $("#border-5 .placa").val();
+    var entrada = $("#border-5 .entrada").val();
+    var qrr = $("#border-5 .qrr").val();
+    var saida = $("#border-5 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-5 table tbody").append(markup);
   });
@@ -73,11 +73,11 @@ $(document).ready(function(){
   });
 
   $(".row-6").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-6 .qra").val();
+    var placa = $("#border-6 .placa").val();
+    var entrada = $("#border-6 .entrada").val();
+    var qrr = $("#border-6 .qrr").val();
+    var saida = $("#border-6 .aida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-6 table tbody").append(markup);
   });
@@ -86,11 +86,11 @@ $(document).ready(function(){
   });
 
   $(".row-7").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-7 .qra").val();
+    var placa = $("#border-7 .placa").val();
+    var entrada = $("#border-7 .entrada").val();
+    var qrr = $("#border-7 .qrr").val();
+    var saida = $("#border-7 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-7 table tbody").append(markup);
   });
@@ -99,11 +99,11 @@ $(document).ready(function(){
   });
 
   $(".row-8").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-8 .qra").val();
+    var placa = $("#border-8 .placa").val();
+    var entrada = $("#border-8 .entrada").val();
+    var qrr = $("#border-8 .qrr").val();
+    var saida = $("#border-8 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-8 table tbody").append(markup);
   });
@@ -112,11 +112,11 @@ $(document).ready(function(){
   });
 
   $(".row-9").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-9 .qra").val();
+    var placa = $("#border-9 .placa").val();
+    var entrada = $("#border-9 .entrada").val();
+    var qrr = $("#border-9 .qrr").val();
+    var saida = $("#border-9 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-9 table tbody").append(markup);
   });
@@ -125,11 +125,11 @@ $(document).ready(function(){
   });
 
   $(".row-10").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-10 .qra").val();
+    var placa = $("#border-10 .placa").val();
+    var entrada = $("#border-10 .entrada").val();
+    var qrr = $("#border-10 .qrr").val();
+    var saida = $("#border-10 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-10 table tbody").append(markup);
   });
@@ -138,11 +138,11 @@ $(document).ready(function(){
   });
 
   $(".row-11").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-11 .qra").val();
+    var placa = $("#border-11 .placa").val();
+    var entrada = $("#border-11 .entrada").val();
+    var qrr = $("#border-11 .qrr").val();
+    var saida = $("#border-11 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-11 table tbody").append(markup);
   });
@@ -151,11 +151,11 @@ $(document).ready(function(){
   });
 
   $(".row-12").click(function(){
-    var qra = $("#qra").val();
-    var placa = $("#placa").val();
-    var entrada = $("#entrada").val();
-    var qrr = $("#qrr").val();
-    var saida = $("#saida").val();
+    var qra = $("#border-12 .qra").val();
+    var placa = $("#border-12 .placa").val();
+    var entrada = $("#border-12 .entrada").val();
+    var qrr = $("#border-12 .qrr").val();
+    var saida = $("#border-12 .saida").val();
     var markup = "<tr><td>" + qra + "</td><td>" + placa + "</td><td>" + entrada + "</td><td>" + qrr + "</td><td>" + saida + "</td><td><input type='checkbox' name='record'></td></tr>";
     $("#acesso-12 table tbody").append(markup);
   });
@@ -265,23 +265,18 @@ $(document).ready(function(){
     $("#sim-1").hide();
     $("#nao-1").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-1").click(function(){
     $("#nao-1").hide();
     $("#sim-1").fadeIn(1000);
   });
 });
 
+
 $(document).ready(function(){
   $("#sim-2").click(function(){
     $("#sim-2").hide();
     $("#nao-2").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-2").click(function(){
     $("#nao-2").hide();
     $("#sim-2").fadeIn(1000);
@@ -293,9 +288,6 @@ $(document).ready(function(){
     $("#sim-3").hide();
     $("#nao-3").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-3").click(function(){
     $("#nao-3").hide();
     $("#sim-3").fadeIn(1000);
@@ -307,24 +299,17 @@ $(document).ready(function(){
     $("#sim-4").hide();
     $("#nao-4").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-4").click(function(){
     $("#nao-4").hide();
     $("#sim-4").fadeIn(1000);
   });
 });
 
-
 $(document).ready(function(){
   $("#sim-5").click(function(){
     $("#sim-5").hide();
     $("#nao-5").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-5").click(function(){
     $("#nao-5").hide();
     $("#sim-5").fadeIn(1000);
@@ -336,12 +321,340 @@ $(document).ready(function(){
     $("#sim-6").hide();
     $("#nao-6").fadeIn(1000);
   });
-});
-
-$(document).ready(function(){
   $("#nao-6").click(function(){
     $("#nao-6").hide();
     $("#sim-6").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-7").click(function(){
+    $("#sim-7").hide();
+    $("#nao-7").fadeIn(1000);
+  });
+  $("#nao-7").click(function(){
+    $("#nao-7").hide();
+    $("#sim-7").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-8").click(function(){
+    $("#sim-8").hide();
+    $("#nao-8").fadeIn(1000);
+  });
+  $("#nao-8").click(function(){
+    $("#nao-8").hide();
+    $("#sim-8").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-9").click(function(){
+    $("#sim-9").hide();
+    $("#nao-9").fadeIn(1000);
+  });
+  $("#nao-9").click(function(){
+    $("#nao-9").hide();
+    $("#sim-9").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-10").click(function(){
+    $("#sim-10").hide();
+    $("#nao-10").fadeIn(1000);
+  });
+  $("#nao-10").click(function(){
+    $("#nao-10").hide();
+    $("#sim-10").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-11").click(function(){
+    $("#sim-11").hide();
+    $("#nao-11").fadeIn(1000);
+  });
+  $("#nao-11").click(function(){
+    $("#nao-11").hide();
+    $("#sim-11").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-12").click(function(){
+    $("#sim-12").hide();
+    $("#nao-12").fadeIn(1000);
+  });
+  $("#nao-12").click(function(){
+    $("#nao-12").hide();
+    $("#sim-12").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-13").click(function(){
+    $("#sim-13").hide();
+    $("#nao-13").fadeIn(1000);
+  });
+  $("#nao-13").click(function(){
+    $("#nao-13").hide();
+    $("#sim-13").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-14").click(function(){
+    $("#sim-14").hide();
+    $("#nao-14").fadeIn(1000);
+  });
+  $("#nao-14").click(function(){
+    $("#nao-14").hide();
+    $("#sim-14").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-15").click(function(){
+    $("#sim-15").hide();
+    $("#nao-15").fadeIn(1000);
+  });
+  $("#nao-15").click(function(){
+    $("#nao-15").hide();
+    $("#sim-15").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-16").click(function(){
+    $("#sim-16").hide();
+    $("#nao-16").fadeIn(1000);
+  });
+  $("#nao-16").click(function(){
+    $("#nao-16").hide();
+    $("#sim-16").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-17").click(function(){
+    $("#sim-17").hide();
+    $("#nao-17").fadeIn(1000);
+  });
+  $("#nao-17").click(function(){
+    $("#nao-17").hide();
+    $("#sim-17").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-18").click(function(){
+    $("#sim-18").hide();
+    $("#nao-18").fadeIn(1000);
+  });
+  $("#nao-18").click(function(){
+    $("#nao-18").hide();
+    $("#sim-18").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-19").click(function(){
+    $("#sim-19").hide();
+    $("#nao-19").fadeIn(1000);
+  });
+  $("#nao-19").click(function(){
+    $("#nao-19").hide();
+    $("#sim-19").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-20").click(function(){
+    $("#sim-20").hide();
+    $("#nao-20").fadeIn(1000);
+  });
+  $("#nao-20").click(function(){
+    $("#nao-20").hide();
+    $("#sim-20").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-21").click(function(){
+    $("#sim-21").hide();
+    $("#nao-21").fadeIn(1000);
+  });
+  $("#nao-21").click(function(){
+    $("#nao-21").hide();
+    $("#sim-21").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-22").click(function(){
+    $("#sim-22").hide();
+    $("#nao-22").fadeIn(1000);
+  });
+  $("#nao-22").click(function(){
+    $("#nao-22").hide();
+    $("#sim-22").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-23").click(function(){
+    $("#sim-23").hide();
+    $("#nao-23").fadeIn(1000);
+  });
+  $("#nao-23").click(function(){
+    $("#nao-23").hide();
+    $("#sim-23").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-24").click(function(){
+    $("#sim-24").hide();
+    $("#nao-24").fadeIn(1000);
+  });
+  $("#nao-24").click(function(){
+    $("#nao-24").hide();
+    $("#sim-24").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-25").click(function(){
+    $("#sim-25").hide();
+    $("#nao-25").fadeIn(1000);
+  });
+  $("#nao-25").click(function(){
+    $("#nao-25").hide();
+    $("#sim-25").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-26").click(function(){
+    $("#sim-26").hide();
+    $("#nao-26").fadeIn(1000);
+  });
+  $("#nao-26").click(function(){
+    $("#nao-26").hide();
+    $("#sim-26").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-27").click(function(){
+    $("#sim-27").hide();
+    $("#nao-27").fadeIn(1000);
+  });
+  $("#nao-27").click(function(){
+    $("#nao-27").hide();
+    $("#sim-27").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-28").click(function(){
+    $("#sim-28").hide();
+    $("#nao-28").fadeIn(1000);
+  });
+  $("#nao-28").click(function(){
+    $("#nao-28").hide();
+    $("#sim-28").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-29").click(function(){
+    $("#sim-29").hide();
+    $("#nao-29").fadeIn(1000);
+  });
+  $("#nao-29").click(function(){
+    $("#nao-29").hide();
+    $("#sim-29").fadeIn(1000);
+  });
+});
+
+
+$(document).ready(function(){
+  $("#sim-30").click(function(){
+    $("#sim-30").hide();
+    $("#nao-30").fadeIn(1000);
+  });
+  $("#nao-30").click(function(){
+    $("#nao-30").hide();
+    $("#sim-30").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-31").click(function(){
+    $("#sim-31").hide();
+    $("#nao-31").fadeIn(1000);
+  });
+  $("#nao-31").click(function(){
+    $("#nao-31").hide();
+    $("#sim-31").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-32").click(function(){
+    $("#sim-32").hide();
+    $("#nao-32").fadeIn(1000);
+  });
+  $("#nao-32").click(function(){
+    $("#nao-32").hide();
+    $("#sim-32").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-33").click(function(){
+    $("#sim-33").hide();
+    $("#nao-33").fadeIn(1000);
+  });
+  $("#nao-33").click(function(){
+    $("#nao-33").hide();
+    $("#sim-33").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-34").click(function(){
+    $("#sim-34").hide();
+    $("#nao-34").fadeIn(1000);
+  });
+  $("#nao-34").click(function(){
+    $("#nao-34").hide();
+    $("#sim-34").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-35").click(function(){
+    $("#sim-35").hide();
+    $("#nao-35").fadeIn(1000);
+  });
+  $("#nao-35").click(function(){
+    $("#nao-35").hide();
+    $("#sim-35").fadeIn(1000);
+  });
+});
+
+$(document).ready(function(){
+  $("#sim-36").click(function(){
+    $("#sim-36").hide();
+    $("#nao-36").fadeIn(1000);
+  });
+  $("#nao-36").click(function(){
+    $("#nao-36").hide();
+    $("#sim-36").fadeIn(1000);
   });
 });
 
@@ -405,35 +718,78 @@ th#acesso{
   width: 130%;
   display: none;
   position: relative;
-  left: -170px;
-  top: 130px;
+  left: -200px;
+  top: 110px;
 }
 
-#sim-1, #sim-2, #sim-3, #sim-4, #sim-5, #sim-6{
+#sim-1, #sim-2, #sim-3, #sim-4, #sim-5, #sim-6, #sim-7, #sim-8, #sim-9, #sim-10, #sim-11, #sim-12,
+ #sim-13, #sim-14, #sim-15, #sim-16, #sim-17, #sim-18, #sim-19, #sim-20, #sim-21, #sim-22, #sim-23, #sim-24,
+ #sim-25, #sim-26, #sim-27, #sim-28, #sim-29, #sim-30, #sim-31, #sim-32, #sim-33, #sim-34, #sim-35, #sim-36{
   border: none;
   background: none;
 }
 
-#nao-1, #nao-2, #nao-3, #nao-4, #nao-5, #nao-6{
+#nao-1, #nao-2, #nao-3, #nao-4, #nao-5, #nao-6, #nao-7, #nao-8, #nao-9, #nao-10, #nao-11, #nao-12,
+ #nao-13, #nao-14, #nao-15, #nao-16, #nao-17, #nao-18, #nao-19, #nao-20, #nao-21, #nao-22, #nao-23, #nao-24,
+ #nao-25, #nao-26, #nao-27, #nao-28, #nao-29, #nao-30, #nao-31, #nao-32, #nao-33, #nao-34, #nao-35, #nao-36{
   border: none;
   background: none;
   display: none;
+}
+
+#border-1, #border-2, #border-3, #border-4, #border-5, #border-6, #border-7, #border-8, #border-9, #border-10, #border-11, #border-12{
+  border: 2px solid white;
+  background-image: linear-gradient(rgb(0,200,100,0.7), rgb(0,100,200,0.7));
+  padding: 10px;
+  width: 70%;
+  position: relative;
+  top: 30px;
+  left: 135px;
 }
 
 form{
   display: none;
   position: relative;
-  top: -50px;
+  top: -10px;
+  //left: -40px;
 }
 
 p{
   position: relative;
-  top: -50px;
+  left: -10px;
 }
 
 button{
   border: none;
   background: none;
+}
+
+.qra{
+  transform: translateX(-30px);
+}
+
+.placa{
+  transform: translateX(-10px);
+}
+
+.entrada{
+  transform: translateX(20px);
+}
+
+.qrr{
+  transform: translateX(60px);
+}
+
+.saida{
+  transform: translateX(90px);
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10, .row-11, .row-12{
+  transform: translateX(85px) translateY(40px);
+}
+
+.remove-1, .remove-2, .remove-3, .remove-4, .remove-5, .remove-6, .remove-7, .remove-8, .remove-9, .remove-10, .remove-11, .remove-12{
+  transform: translateX(440px) translateY(-150px);
 }
 
 .divisao {
@@ -528,16 +884,6 @@ ul{
 <ul>
 <li>
 <div id="acesso-1">
-<p>Para adicionar e/ou remover uma patrulha à tabela, preencha os seguintes dados:</p>
-      <form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-1" value="Adicionar">
-         <input type="button" class="remove-1" value="Remover" onclick="alert('Patrulha removida.')">
-      </form>
 <h1 align = "center">1ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
@@ -558,7 +904,7 @@ ul{
       </tr>
       <tr>
          <td> Tim </td>
-         <td> 18 </td>
+         <td>PWE-3R21</td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
@@ -566,14 +912,26 @@ ul{
       </tr>
       <tr>
          <td> Mark </td>
-         <td> 23 </td>
+         <td>LIP-9882</td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type = "time"></td>
          <td><input type="submit" value="✔️" id = "sim-3"><input type="submit" value="❌" id = "nao-3"></td>
       </tr>
    </table>
-
+<div id = 'border-1'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-1" value="Adicionar">
+      </form>
+         <input type="button" size = "15" class="remove-1" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
+</div>
 </li>
 
 <li>
@@ -613,15 +971,18 @@ ul{
          <td><input type="submit" value="✔️" id = "sim-6"><input type="submit" value="❌" id = "nao-6"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
+<div id = "border-2">
+  <p>Para adicionar e/ou remover uma patrulha à tabela, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" size = "10" class="entrada" placeholder="ENTRADA">
+         <input type="time" size = "10" class="qrr" placeholder="QRR">
+         <input type="time" size = "10" class="saida" placeholder="SAÍDA">
          <input type="button" class="row-2" value="Adicionar">
-         <input type="button" class="remove-2" value="Remover" onclick="alert('Patrulha removida.')">
       </form>
+         <input type="button" class="remove-2" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 </li>
 
@@ -629,350 +990,500 @@ ul{
 <h1 align = "center">RONDA SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-7"><input type="submit" value="❌" id = "nao-7"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-8"><input type="submit" value="❌" id = "nao-8"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-9"><input type="submit" value="❌" id = "nao-9"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-3" value="Adicionar">
-         <input type="button" class="remove-3" value="Remover">
+<div id = 'border-3'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-3" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-3" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-4">
 <h1 align = "center">4ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-10"><input type="submit" value="❌" id = "nao-10"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-11"><input type="submit" value="❌" id = "nao-11"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-12"><input type="submit" value="❌" id = "nao-12"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-4" value="Adicionar">
-         <input type="button" class="remove-4" value="Remover">
+<div id = 'border-4'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-4" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-4" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-5">
 <h1 align = "center">5ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-13"><input type="submit" value="❌" id = "nao-13"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-14"><input type="submit" value="❌" id = "nao-14"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-15"><input type="submit" value="❌" id = "nao-15"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-5" value="Adicionar">
-         <input type="button" class="remove-5" value="Remover">
+<div id = 'border-5'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-5" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-5" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-6">
 <h1 align = "center">6ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-16"><input type="submit" value="❌" id = "nao-16"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-17"><input type="submit" value="❌" id = "nao-17"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-18"><input type="submit" value="❌" id = "nao-18"></td>
       </tr>
    </table>
-       <form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-6" value="Adicionar">
-         <input type="button" class="remove-6" value="Remover">
+<div id = 'border-6'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-6" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-6" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-7">
 <h1 align = "center">7ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-19"><input type="submit" value="❌" id = "nao-19"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-20"><input type="submit" value="❌" id = "nao-20"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-21"><input type="submit" value="❌" id = "nao-21"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-7" value="Adicionar">
-         <input type="button" class="remove-7" value="Remover">
+<div id = 'border-7'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-7" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-7" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-8">
 <h1 align = "center">8ª SUL</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-22"><input type="submit" value="❌" id = "nao-22"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-23"><input type="submit" value="❌" id = "nao-23"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-24"><input type="submit" value="❌" id = "nao-24"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-8" value="Adicionar">
-         <input type="button" class="remove-8" value="Remover">
+<div id = 'border-8'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-8" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-8" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-9">
 <h1 align = "center">1ª SUL JAB</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-25"><input type="submit" value="❌" id = "nao-25"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-26"><input type="submit" value="❌" id = "nao-26"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-27"><input type="submit" value="❌" id = "nao-27"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-9" value="Adicionar">
-         <input type="button" class="remove-9" value="Remover">
+<div id = 'border-9'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-9" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-9" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-10">
 <h1 align = "center">2ª SUL JAB</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-28"><input type="submit" value="❌" id = "nao-28"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-29"><input type="submit" value="❌" id = "nao-29"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-30"><input type="submit" value="❌" id = "nao-30"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-10" value="Adicionar">
-         <input type="button" class="remove-10" value="Remover">
+<div id = 'border-10'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-10" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-10" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-11">
 <h1 align = "center">3ª SUL JAB</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-31"><input type="submit" value="❌" id = "nao-31"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-32"><input type="submit" value="❌" id = "nao-32"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-33"><input type="submit" value="❌" id = "nao-33"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-11" value="Adicionar">
-         <input type="button" class="remove-11" value="Remover">
+<div id = 'border-11'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-11" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-1" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 
 <div id="acesso-12">
 <h1 align = "center">4ª SUL JAB</h1>
    <table id = "table-2" align = "center">
       <tr>
-         <th>Qxx</th>
+         <th>QRA</th>
          <th>PLACA</th>
+         <th>HORÁRIO DE ENTRADA</th>
          <th>HORÁRIO DO QRR</th>
-      </tr>
-      <tr>
-         <td> Alex </td>
-         <td> 20 </td>
-         <th><input type = "time"></th>
-      </tr>
-      <tr>
-         <td> Tim </td>
-         <td> 18 </td>
-         <th>QRR</th>
+         <th>HORÁRIO DE SAÍDA</th>
+         <th>DISPONÍVEL</th>
       </tr>
       <tr>
          <td> Mark </td>
          <td> 23 </td>
-         <th>QRR</th>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-34"><input type="submit" value="❌" id = "nao-34"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-35"><input type="submit" value="❌" id = "nao-35"></td>
+      </tr>
+      <tr>
+         <td> Mark </td>
+         <td> 23 </td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type = "time"></td>
+         <td><input type="submit" value="✔️" id = "sim-36"><input type="submit" value="❌" id = "nao-36"></td>
       </tr>
    </table>
-      <br><br><form>
-         <input type="text" width = "5" id="qra" placeholder="QRA">
-         <input type="text" id="placa" placeholder="PLACA">
-         <input type="time" id="entrada" placeholder="ENTRADA">
-         <input type="time" id="qrr" placeholder="QRR">
-         <input type="time" id="saida" placeholder="SAÍDA">
-         <input type="button" class="row-12" value="Adicionar">
-         <input type="button" class="remove-12" value="Remover">
+<div id = 'border-12'>
+  <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+      <form>
+         <input type="text" size = "10" class="qra" placeholder="QRA">
+         <input type="text" size = "10" maxlength="8" class="placa" placeholder="PLACA">
+         <input type="time" class="entrada" placeholder="ENTRADA">
+         <input type="time" class="qrr" placeholder="QRR">
+         <input type="time" class="saida" placeholder="SAÍDA">
+         <input type="button" size = "10" class="row-12" value="Adicionar">
       </form>
+         <input type="button" size = "15" class="remove-12" value="Remover Patrulha" onclick="alert('Patrulha removida.')">
+</div>
 </div>
 <br><br>
 
