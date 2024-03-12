@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>PATRULHA</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+
+<body>
+    <header>
+        <ul align='center' class="divisao">
+            <li>
+                <img src='https://gruposeg.com/wp-content/uploads/2022/05/logo-Grupo-Seg-1.png' width=144px
+                    height=105px>
+                <h1 id="start">PONTO BASE DA PATRULHA SUL</h1>
+                <table align="center" id="table-1">
+                    <tr>
+                        <th id="nome">NOME</th>
+                        <th id="posto">POSTO</th>
+                        <th id="acesso">ACESSO</th>
+                    </tr>
+                    <tr>
+                        <td>1ª SUL</td>
+                        <td>ERNESTO DE PAULA</td>
+                        <td><button id="1sul">➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>2ª SUL</td>
+                        <td>ANTÔNIO FALCÃO</td>
+                        <td><button id='2sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>RONDA SUL</td>
+                        <td>PIEDADE</td>
+                        <td><button id='rondasul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>4ª SUL</td>
+                        <td>PINA</td>
+                        <td><button id='4sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>5ª SUL</td>
+                        <td>IMBIRIBEIRA</td>
+                        <td><button id='5sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>6ª SUL</td>
+                        <td>AREIAS</td>
+                        <td><button id='6sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>7ª SUL</td>
+                        <td>SETÚBAL</td>
+                        <td><button id='7sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>8ª SUL</td>
+                        <td>CABO</td>
+                        <td><button id='8sul'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>1ª SUL JAB</td>
+                        <td>ENGENHO VELHO</td>
+                        <td><button id='1suljab'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>2ª SUL JAB</td>
+                        <td>PIEDADE</td>
+                        <td><button id='2suljab'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>3ª SUL JAB</td>
+                        <td>ENGENHO VELHO</td>
+                        <td><button id='3suljab'>➡️</button></td>
+                    </tr>
+                    <tr>
+                        <td>4ª SUL JAB</td>
+                        <td>PIEDADE</td>
+                        <td><button id='4suljab'>➡️</button></td>
+                    </tr>
+                </table>
+            </li>
+
+            <ul>
+                <li>
+                    <div id="acesso-1">
+                        <h1 align="center">1ª SUL</h1>
+                        <table id="table-2" align="center">
+                            <tr>
+                                <th>QRA</th>
+                                <th>PLACA</th>
+                                <th>HORÁRIO DE ENTRADA</th>
+                                <th>HORÁRIO DO QRR</th>
+                                <th>HORÁRIO DE SAÍDA</th>
+                                <th>DISPONÍVEL</th>
+                            </tr>
+                            <tr>
+                                <td> Alex </td>
+                                <td>QRX-4332</td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-1"><input type="submit" value="❌"
+                                        id="nao-1"></td>
+                            </tr>
+                            <tr>
+                                <td> Tim </td>
+                                <td>PWE-3R21</td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-2"><input type="submit" value="❌"
+                                        id="nao-2"></td>
+                            </tr>
+                            <tr>
+                                <td> Mark </td>
+                                <td>LIP-9882</td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-3"><input type="submit" value="❌"
+                                        id="nao-3"></td>
+                            </tr>
+                        </table>
+                        <div id='border-1'>
+                            <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                            <form>
+                                <input type="text" size="10" class="qra" placeholder="QRA">
+                                <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                                <input type="time" class="entrada" placeholder="ENTRADA">
+                                <input type="time" class="qrr" placeholder="QRR">
+                                <input type="time" class="saida" placeholder="SAÍDA">
+                                <input type="button" size="10" class="row-1" value="Adicionar">
+                            </form>
+                            <input type="button" size="15" class="remove-1" value="Remover Patrulha"
+                                onclick="alert('Patrulha removida.')">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div id="acesso-2">
+                        <h1 align="center">2ª SUL</h1>
+                        <table id="table-2" align="center">
+                            <tr>
+                                <th>QRA</th>
+                                <th>PLACA</th>
+                                <th>HORÁRIO DE ENTRADA</th>
+                                <th>HORÁRIO DO QRR</th>
+                                <th>HORÁRIO DE SAÍDA</th>
+                                <th>DISPONÍVEL</th>
+                            </tr>
+                            <tr>
+                                <td> Alex </td>
+                                <td>QRX-4332</td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-4"><input type="submit" value="❌"
+                                        id="nao-4"></td>
+                            </tr>
+                            <tr>
+                                <td> Tim </td>
+                                <td> 18 </td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-5"><input type="submit" value="❌"
+                                        id="nao-5"></td>
+                            </tr>
+                            <tr>
+                                <td> Mark </td>
+                                <td> 23 </td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="time"></td>
+                                <td><input type="submit" value="✔️" id="sim-6"><input type="submit" value="❌"
+                                        id="nao-6"></td>
+                            </tr>
+                        </table>
+                        <div id="border-2">
+                            <p>Para adicionar e/ou remover uma patrulha à tabela, preencha os seguintes dados:</p>
+                            <form>
+                                <input type="text" size="10" class="qra" placeholder="QRA">
+                                <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                                <input type="time" size="10" class="entrada" placeholder="ENTRADA">
+                                <input type="time" size="10" class="qrr" placeholder="QRR">
+                                <input type="time" size="10" class="saida" placeholder="SAÍDA">
+                                <input type="button" class="row-2" value="Adicionar">
+                            </form>
+                            <input type="button" class="remove-2" value="Remover Patrulha"
+                                onclick="alert('Patrulha removida.')">
+                        </div>
+                    </div>
+                </li>
+
+                <div id="acesso-3">
+                    <h1 align="center">RONDA SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-7"><input type="submit" value="❌" id="nao-7">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-8"><input type="submit" value="❌" id="nao-8">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-9"><input type="submit" value="❌" id="nao-9">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-3'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-3" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-3" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-4">
+                    <h1 align="center">4ª SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-10"><input type="submit" value="❌" id="nao-10">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-11"><input type="submit" value="❌" id="nao-11">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-12"><input type="submit" value="❌" id="nao-12">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-4'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-4" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-4" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-5">
+                    <h1 align="center">5ª SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-13"><input type="submit" value="❌" id="nao-13">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-14"><input type="submit" value="❌" id="nao-14">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-15"><input type="submit" value="❌" id="nao-15">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-5'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-5" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-5" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-6">
+                    <h1 align="center">6ª SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-16"><input type="submit" value="❌" id="nao-16">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-17"><input type="submit" value="❌" id="nao-17">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-18"><input type="submit" value="❌" id="nao-18">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-6'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-6" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-6" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-7">
+                    <h1 align="center">7ª SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-19"><input type="submit" value="❌" id="nao-19">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-20"><input type="submit" value="❌" id="nao-20">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-21"><input type="submit" value="❌" id="nao-21">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-7'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-7" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-7" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-8">
+                    <h1 align="center">8ª SUL</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-22"><input type="submit" value="❌" id="nao-22">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-23"><input type="submit" value="❌" id="nao-23">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-24"><input type="submit" value="❌" id="nao-24">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-8'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-8" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-8" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-9">
+                    <h1 align="center">1ª SUL JAB</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-25"><input type="submit" value="❌" id="nao-25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-26"><input type="submit" value="❌" id="nao-26">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-27"><input type="submit" value="❌" id="nao-27">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-9'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-9" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-9" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-10">
+                    <h1 align="center">2ª SUL JAB</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-28"><input type="submit" value="❌" id="nao-28">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-29"><input type="submit" value="❌" id="nao-29">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-30"><input type="submit" value="❌" id="nao-30">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-10'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-10" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-10" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-11">
+                    <h1 align="center">3ª SUL JAB</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-31"><input type="submit" value="❌" id="nao-31">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-32"><input type="submit" value="❌" id="nao-32">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-33"><input type="submit" value="❌" id="nao-33">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-11'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-11" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-1" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+
+                <div id="acesso-12">
+                    <h1 align="center">4ª SUL JAB</h1>
+                    <table id="table-2" align="center">
+                        <tr>
+                            <th>QRA</th>
+                            <th>PLACA</th>
+                            <th>HORÁRIO DE ENTRADA</th>
+                            <th>HORÁRIO DO QRR</th>
+                            <th>HORÁRIO DE SAÍDA</th>
+                            <th>DISPONÍVEL</th>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-34"><input type="submit" value="❌" id="nao-34">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-35"><input type="submit" value="❌" id="nao-35">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> Mark </td>
+                            <td> 23 </td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="time"></td>
+                            <td><input type="submit" value="✔️" id="sim-36"><input type="submit" value="❌" id="nao-36">
+                            </td>
+                        </tr>
+                    </table>
+                    <div id='border-12'>
+                        <p>Para adicionar e/ou remover uma patrulha à tabela acima, preencha os seguintes dados:</p>
+                        <form>
+                            <input type="text" size="10" class="qra" placeholder="QRA">
+                            <input type="text" size="10" maxlength="8" class="placa" placeholder="PLACA">
+                            <input type="time" class="entrada" placeholder="ENTRADA">
+                            <input type="time" class="qrr" placeholder="QRR">
+                            <input type="time" class="saida" placeholder="SAÍDA">
+                            <input type="button" size="10" class="row-12" value="Adicionar">
+                        </form>
+                        <input type="button" size="15" class="remove-12" value="Remover Patrulha"
+                            onclick="alert('Patrulha removida.')">
+                    </div>
+                </div>
+                <br><br>
+
+            </ul>
+    </header>
+</body>
+
+</html>
